@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import bfhlReducer from '../features/bfhl/bfhlSlice'
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    bfhl: bfhlReducer,
   },
 });
